@@ -1,0 +1,119 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background:#f7f5fc;
+  color:#222;
+}
+
+/* NAVBAR */
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px 60px;
+  background:white;
+  box-shadow:0 2px 10px rgba(0,0,0,0.05);
+}
+
+.logo{
+  font-size:40px;
+  font-weight:bold;
+  color:#6c3cf0;
+}
+
+.nav-links{
+  display:flex;
+  gap:30px;
+}
+
+.nav-links a{
+  text-decoration:none;
+  color:#333;
+  font-weight:600;
+}
+
+.register-btn{
+  background:#6c3cf0;
+  color:white;
+  padding:12px 20px;
+  border:none;
+  border-radius:10px;
+  cursor:pointer;
+}
+
+/* HERO SECTION */
+.hero{
+  text-align:center;
+  padding:80px 20px;
+}
+
+.hero h1{
+  font-size:70px;
+  margin-bottom:20px;
+}
+
+.hero span{
+  color:#6c3cf0;
+}
+
+.hero p{
+  color:gray;
+  font-size:20px;
+}
+
+/* POSTS SECTION */
+.posts{
+  padding:40px 60px;
+}
+
+.post-card{
+  background:white;
+  width:300px;
+  padding:30px;
+  border-radius:20px;
+  box-shadow:0 4px 15px rgba(0,0,0,0.05);
+}
+
+.post-card h2{
+  margin:20px 0;
+}
+
+.post-btn{
+  background:#6c3cf0;
+  color:white;
+  border:none;
+  padding:12px 20px;
+  border-radius:10px;
+  cursor:pointer;
+}
+
+/* FEATURES */
+.features{
+  display:flex;
+  gap:30px;
+  padding:40px 60px;
+}
+
+.feature-card{
+  background:white;
+  flex:1;
+  padding:40px;
+  border-radius:20px;
+  box-shadow:0 4px 15px rgba(0,0,0,0.05);
+  text-align:center;
+}
+
+.feature-card h3{
+  margin:20px 0;
+}
+
+footer{
+  text-align:center;
+  padding:30px;
+  color:gray;
+}
